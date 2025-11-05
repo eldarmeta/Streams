@@ -1,9 +1,9 @@
 package org.pluralsight;
 
 public class Person {
-    private  String fisrtName;
-    private  String lastName;
-    private  int age;
+    private String fisrtName;
+    private String lastName;
+    private int age;
 
     public Person(String fisrtName, String lastName, int age) {
         this.fisrtName = fisrtName;
@@ -11,18 +11,22 @@ public class Person {
         this.age = age;
     }
 
-    public String getFisrtName() {
+    public String getFirstName() {
         return fisrtName;
     }
+
     public String getLastName() {
         return lastName;
     }
+
     public int getAge() {
         return age;
     }
 
     @Override
-    public  String toString() {
+    public String toString() {
         return fisrtName + " " + lastName + " (" + age + ")";
     }
+
+
 }
